@@ -33,3 +33,10 @@ i.button:hover
 a:hover {
   text-decoration: none;
 }
+
+.progress-bar {
+  -webkit-transition: width 3.0s ease !important;
+     -moz-transition: width 3.0s ease !important;
+       -o-transition: width 3.0s ease !important;
+          transition: width 3.0s ease !important;
+}

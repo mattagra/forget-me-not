@@ -14,3 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(".progress-bar").animate({
+    width: "100%"
+}, 2500);
